@@ -11,4 +11,4 @@ after starting invrionment install the following:
 
 
 
- 
+ how to run application: streamlit run app.py

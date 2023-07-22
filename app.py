@@ -12,7 +12,7 @@ from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
 
 def get_pdf_text(pdf_docs):
-    # initialized a varieable call text to store all text from our PDFs
+    # initialized a variable call text to store all text from our PDFs
     text = ""
     #from each pdf we, started looping through all of our PDFs
     for pdf in pdf_docs:
@@ -115,8 +115,6 @@ def main():
                 # get the pdf text
                 raw_text = get_pdf_text(pdf_docs)
                 # st.write(raw_text)
-              
-
 
                 # get the text chunks
                 text_chunks = get_text_chunks(raw_text)
@@ -127,7 +125,7 @@ def main():
                 st.write(vectorstore)
 
                 # create conversation chain
-                # returns history og conversation and the next element in the conversation
+                # returns history of conversation and the next element in the conversation
                 st.session_state.conversation = get_conversation_chain(vectorstore)
 
 
