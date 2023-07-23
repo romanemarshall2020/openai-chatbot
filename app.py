@@ -70,6 +70,7 @@ def handle_userinput(user_question):
     # gets 
     response = st.session_state.conversation({'question': user_question})
     # Before i can use session state i must initialize it inside of our main function
+    print(response['chat_histor'])
     st.session_state.chat_history = response['chat_history']
 
 
