@@ -14,7 +14,7 @@ function App() {
         <div className='chat-body'>
         <div className='input'>
           <form className='input' action="">
-            <input type="text" name="input-box" id="field" typeof='' />
+            <input type="text" name="input-box" id="field" placeholder='Ask me a question' />
             <input type="button" value="submit" />
           </form>
         </div>
