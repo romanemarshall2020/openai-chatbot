@@ -22,9 +22,11 @@
   /* padding: 0px 0px 5px 0px; */
   margin-bottom: 4px;
   .sidebar-button {
+    position: absolute;
     border: 2px solid white;
     border-radius: 40px;
     width: 10%;
+    height: 5%;
     margin: 6px 6px 6px 10px;
   }
 }
@@ -41,7 +43,7 @@
     justify-self: center;
     display:flex;
     width: 100%;
-    background-color: #78c6f7;
+    background-color: #f2f5f7;
     height: 70px;
     position: absolute;
     bottom: 0;
@@ -50,7 +52,7 @@
       width: 80%;
       margin: 2% 2% 02%  2%;
       border-radius: 25px;
-      background-color: #bbdef9;
+      background-color: #fafafa;
       font-size: large;
       font-weight: 900;
       padding-left: 20px;
